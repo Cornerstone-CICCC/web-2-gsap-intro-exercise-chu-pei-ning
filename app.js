@@ -14,7 +14,7 @@ boxTimeline
   .to('.yellow', { y: 0, top: 0, borderRadius: '50%', backgroundColor: 'red', duration: .8 },'<')
   
   .to('.yellow', { x: '-100%', left:0, duration: 1})
-  .to('.red', { left: 'calc(100vw + 100%)', duration: 1}, '<')
+  .to('.red', { x: '100%', left: '100%', duration: 1}, '<')
   .to('.green', { x: '100%', left:'100%', duration: 1},'<')
-  .to('.blue', { left: 'calc(-100vw - 100%)', duration: 1},'<')
+  .to('.blue', { x: '-100%',left: 0, duration: 1},'<')
 
